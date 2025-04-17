@@ -205,11 +205,11 @@ const InteractiveBondingCurve = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="p-4 bg-blue-50 rounded-md shadow-sm">
             <div className="font-medium text-gray-700 mb-1">Initial Token Price:</div>
-            <div className="text-xl font-mono">{(virtualSolReserves / virtualTokenReserves).toExponential(10)} SOL</div>
+            <div className="text-xl font-mono text-black">{(virtualSolReserves / virtualTokenReserves).toExponential(10)} SOL</div>
           </div>
           <div className="p-4 bg-green-50 rounded-md shadow-sm">
             <div className="font-medium text-gray-700 mb-1">Constant Product (k):</div>
-            <div className="text-xl font-mono">{(virtualSolReserves * virtualTokenReserves).toExponential(10)}</div>
+            <div className="text-xl font-mono text-black">{(virtualSolReserves * virtualTokenReserves).toExponential(10)}</div>
           </div>
         </div>
       </div>
